@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.TuEspacioLiterario" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/accent</item>
+
+        <!-- Colores de la barra de estado y navegación -->
+        <item name="android:statusBarColor">@color/primaryVariant</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+
+        <!-- Tipografía (opcional) -->
+        <!-- <item name="android:fontFamily">@font/tu_fuente</item> -->
+    </style>
+
+</resources>
